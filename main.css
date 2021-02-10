@@ -89,4 +89,15 @@ select {
 
 button {
     font-size: 20px;
+    background-color: #97d4f3;
+    border-radius: 6px;
+
 }
+
+button:hover {
+    background-color: #08457E;
+    color: white;
+}
+
+
+@media 
