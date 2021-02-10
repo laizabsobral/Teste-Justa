@@ -1,0 +1,51 @@
+wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.menu,
+.content {
+    width: 100%;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin: 10px 0 30px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #08457E;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+span{
+  font-weight: bold;
+}
+
+
+select {
+    background: #e8eaf6;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid #3f51b5;
+  box-shadow: 0 15px 15px #efefef;
+  appearance: none
+ background:  url(src/arrow.png) no-repeat;
+ background-position: 95% 55%;
+ background-size: 22px;
+
+  
+
+}
