@@ -100,4 +100,14 @@ button:hover {
 }
 
 
-@media 
+@media screen and (max-width:700px) {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 5px;
+        width: 200px;
+}
+}
