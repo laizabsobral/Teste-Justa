@@ -49,3 +49,41 @@ select {
   
 
 }
+
+.content {
+    margin: 30px 0;
+}
+
+.content .data {
+    border-radius: 8px;
+    border: 2px solid  #c3804a;
+    padding: 25px;
+    background-color: #fff
+   
+}
+
+.content p {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom:  1px solid gainsboro;
+}
+
+.content p:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.content p b {
+    font-weight: 700; 
+}
+
+.content p span {
+    float: right;
+    font-weight: normal;
+}
+
+.data {
+    display: none;
+}

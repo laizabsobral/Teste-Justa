@@ -19,3 +19,29 @@
             
         </select>
     </div>
+    <div class="content">
+        <div id="Recife" class="data">
+        <p> <b> Cidade é </b> <span> aaaaa</span></p>
+
+    </div>
+
+        <div id="Fortaleza" class="data"> 
+        <p> <b> Cidade é </b> <span> aaaaa</span></p>
+
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script>
+    $(document).ready(function() {
+        $("#name").on('change', function (){
+            $(".data").hide();
+           $("#" + $(this).val ()).fadeIn(700);
+        }).change();
+    });
+ 
+ </script>
+</center>
+
+</body>
+</html>
